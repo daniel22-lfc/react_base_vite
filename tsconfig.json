@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "baseUrl": "./frontend/app/",
+    "paths": {
+      "@*": ["/*"],
+      "@components*": ["components/*"],
+    },
+    // "allowSyntheticDefaultImports": true,
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "include": ["frontend","./frontend/app/vite-env.d.ts"],
+  "exclude": ["node_modules"]
+}
